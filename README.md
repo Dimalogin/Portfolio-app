@@ -1,1 +1,1 @@
-https://Dimalogin.github.io/portfolio/
+https://Dimalogin.github.io/Portfolio-app/portfolio
