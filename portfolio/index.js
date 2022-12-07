@@ -1,6 +1,24 @@
-import { ruLang, enLang } from "./scripts/date.js";
-import View from "./scripts/view.js";
+import Controller from "./scripts/controller.js";
 
 (function controller() {
-  View.render(enLang);
+  window.location.hash = "en";
+
+  addEventListener("hashchange", handleHash);
+  handleHash();
 })();
+
+function handleHash() {
+  const { name } = getRouterInfo();
+
+  if (name === "ru" || name === "en") {
+    const routerName = name + "Route";
+    Controller[routerName]();
+  }
+}
+
+function getRouterInfo() {
+  const hash = location.hash ? location.hash.slice(1) : "";
+  const [name] = hash.split("/");
+
+  return { name };
+}
