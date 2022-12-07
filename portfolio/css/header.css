@@ -1,6 +1,6 @@
 .header-background {
   height: 910px;
-  background-image: url(/src/images/header-bg.jpg);
+  background-image: url('../images/header-bg.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -115,7 +115,7 @@
 .theme__dark {
   width: 100%;
   height: 100%;
-  background-image: url(/src/images/mouth.svg);
+  background-image: url('../images/mouth.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -123,13 +123,13 @@
 
 .theme__dark:hover {
   transition: 0.3s;
-  background-image: url(/src/images/mouth-g.svg);
+  background-image: url('../images/mouth-g.svg');
 }
 
 .theme__light {
   width: 100%;
   height: 100%;
-  background-image: url(/src/images/sun.svg);
+  background-image: url('../images/sun.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -137,7 +137,7 @@
 
 .theme__light:hover {
   transition: 0.3s;
-  background-image: url(/src/images/sun-g.svg);
+  background-image: url('../images/sun-g.svg');
 }
 
 .header__navigation--mobile {
