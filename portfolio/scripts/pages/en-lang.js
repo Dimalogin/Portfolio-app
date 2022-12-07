@@ -265,7 +265,7 @@ export default {
       const images = getAllImages();
 
       for (let i = 0; i < images.length; i++) {
-        images[i].src = `/src/images/images-winter/winter-${i + 1}.jpg`;
+        images[i].src = `./images/images-winter/winter-${i + 1}.jpg`;
       }
 
       this.classList.toggle("active-btn");
@@ -277,7 +277,7 @@ export default {
       const images = getAllImages();
 
       for (let i = 0; i < images.length; i++) {
-        images[i].src = `/src/images/images-spring/spring-${i + 1}.jpg`;
+        images[i].src = `./images/images-spring/spring-${i + 1}.jpg`;
       }
 
       this.classList.toggle("active-btn");
@@ -289,7 +289,7 @@ export default {
       const images = getAllImages();
 
       for (let i = 0; i < images.length; i++) {
-        images[i].src = `/src/images/images-summer/summer-${i + 1}.jpg`;
+        images[i].src = `./images/images-summer/summer-${i + 1}.jpg`;
       }
 
       this.classList.toggle("active-btn");
@@ -301,7 +301,7 @@ export default {
       const images = getAllImages();
 
       for (let i = 0; i < images.length; i++) {
-        images[i].src = `/src/images/images-autumn/autumn-${i + 1}.jpg`;
+        images[i].src = `./images/images-autumn/autumn-${i + 1}.jpg`;
       }
 
       this.classList.toggle("active-btn");
