@@ -1,0 +1,87 @@
+.footer__body {
+  padding: 50px 20px;
+  background-color: black;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__date {
+  width: 182px;
+  height: 50px;
+}
+
+.footer__date span {
+  margin-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+}
+
+.footer__date span:last-child {
+  margin-right: 0px;
+}
+
+.footer__date span a {
+  color: white;
+}
+
+.footer__date span a:hover {
+  text-decoration: underline;
+}
+
+.footer__text {
+  width: 211px;
+  height: 50px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.social__list {
+  width: 188px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__link svg:hover {
+  fill: #bdae82;
+  transition: 0.3s;
+}
+
+@media all and (max-width: 1040px) {
+  .footer__body {
+    padding: 28px 0px;
+  }
+
+  .footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__date {
+    height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .footer__date span {
+    line-height: 20px;
+  }
+
+  .footer__text {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}

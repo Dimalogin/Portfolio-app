@@ -1,0 +1,146 @@
+.portfolio__body {
+  padding: 100px 0px 0px 0px;
+}
+
+.portfolio__title {
+  width: 700px;
+  height: 80px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio__line {
+  display: block;
+  width: 239.5px;
+  height: 2px;
+  background-color: #bdae82;
+}
+
+.portfolio__title h2 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+
+.portfolio__buttons {
+  padding: 60px 0px;
+}
+
+.buttons__body {
+  width: 895px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio__button {
+  width: 220px;
+  height: 55px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+  border: 2px solid #bdae82;
+  background: transparent;
+}
+
+.buttons__body button:hover {
+  transition: 0.3s;
+  background-color: #bdae82;
+  color: black;
+}
+
+.active-btn {
+  background-color: #bdae82;
+  color: black;
+}
+
+.portfolio__row {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.portfolio__column:nth-child(1),
+.portfolio__column:nth-child(2),
+.portfolio__column:nth-child(3) {
+  margin-bottom: 25px;
+}
+
+@media all and (max-width: 1400px) {
+  .portfolio__row {
+    max-width: 925px;
+  }
+}
+
+@media all and (max-width: 1040px) {
+  .portfolio__body {
+    padding: 80px 0px 10px 0px;
+  }
+
+  .portfolio__title {
+    width: 364px;
+    margin: 0px auto;
+  }
+
+  .portfolio__title h2 {
+    font-size: 32px;
+  }
+
+  .portfolio__line {
+    display: block;
+    width: 89.5px;
+    height: 2px;
+    background-color: #bdae82;
+  }
+
+  .portfolio__buttons {
+    padding: 50px 0px 60px 0px;
+  }
+
+  .buttons__body {
+    width: 445px;
+    flex-wrap: wrap;
+  }
+
+  .portfolio__button:nth-child(1),
+  .portfolio__button:nth-child(2) {
+    margin-bottom: 5px;
+  }
+
+  .portfolio__row {
+    max-width: 450px;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .portfolio__column:nth-child(4),
+  .portfolio__column:nth-child(5) {
+    margin-bottom: 25px;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .buttons__body {
+    width: 220px;
+  }
+
+  .portfolio__button:nth-child(3) {
+    margin-bottom: 5px;
+  }
+
+  .portfolio__image img {
+    width: 100%;
+  }
+}
